@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0AF69202609049E00F04019 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AF691F2609049E00F04019 /* sound-chime.mp3 */; };
+		F0AF6923260904DC00F04019 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF6922260904DC00F04019 /* PlaySound.swift */; };
+		F0AF692A260948D000F04019 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AF6929260948D000F04019 /* Stickers.xcassets */; };
+		F0AF692E260948D000F04019 /* stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F0AF6927260948CE00F04019 /* stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F0DB877826051F4100E8D8F0 /* Learn_by_DoingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB877726051F4100E8D8F0 /* Learn_by_DoingApp.swift */; };
+		F0DB877A26051F4100E8D8F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB877926051F4100E8D8F0 /* ContentView.swift */; };
+		F0DB877C26051F4300E8D8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0DB877B26051F4300E8D8F0 /* Assets.xcassets */; };
+		F0DB877F26051F4300E8D8F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0DB877E26051F4300E8D8F0 /* Preview Assets.xcassets */; };
+		F0DB87892607AD1900E8D8F0 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB87882607AD1900E8D8F0 /* LaunchScreenView.swift */; };
+		F0DB878F2607C32100E8D8F0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB878E2607C32100E8D8F0 /* CardView.swift */; };
+		F0DB87932608BF3F00E8D8F0 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB87922608BF3F00E8D8F0 /* CardModel.swift */; };
+		F0DB87962608BFF500E8D8F0 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB87952608BFF500E8D8F0 /* CardData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0AF692C260948D000F04019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0DB876C26051F4100E8D8F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0AF6926260948CE00F04019;
+			remoteInfo = stickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0AF6932260948D000F04019 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F0AF692E260948D000F04019 /* stickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F0AF691F2609049E00F04019 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		F0AF6922260904DC00F04019 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		F0AF6927260948CE00F04019 /* stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AF6929260948D000F04019 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		F0AF692B260948D000F04019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0DB877426051F4100E8D8F0 /* Learn by Doing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn by Doing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0DB877726051F4100E8D8F0 /* Learn_by_DoingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn_by_DoingApp.swift; sourceTree = "<group>"; };
+		F0DB877926051F4100E8D8F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0DB877B26051F4300E8D8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0DB877E26051F4300E8D8F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0DB878026051F4300E8D8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0DB87882607AD1900E8D8F0 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		F0DB878E2607C32100E8D8F0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F0DB87922608BF3F00E8D8F0 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		F0DB87952608BFF500E8D8F0 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0DB877126051F4100E8D8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0AF6928260948CE00F04019 /* stickers */ = {
+			isa = PBXGroup;
+			children = (
+				F0AF6929260948D000F04019 /* Stickers.xcassets */,
+				F0AF692B260948D000F04019 /* Info.plist */,
+			);
+			path = stickers;
+			sourceTree = "<group>";
+		};
+		F0DB876B26051F4100E8D8F0 = {
+			isa = PBXGroup;
+			children = (
+				F0DB877626051F4100E8D8F0 /* Learn by Doing */,
+				F0AF6928260948CE00F04019 /* stickers */,
+				F0DB877526051F4100E8D8F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0DB877526051F4100E8D8F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0DB877426051F4100E8D8F0 /* Learn by Doing.app */,
+				F0AF6927260948CE00F04019 /* stickers.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0DB877626051F4100E8D8F0 /* Learn by Doing */ = {
+			isa = PBXGroup;
+			children = (
+				F0AF691F2609049E00F04019 /* sound-chime.mp3 */,
+				F0AF6922260904DC00F04019 /* PlaySound.swift */,
+				F0DB87872607AD0600E8D8F0 /* View */,
+				F0DB877726051F4100E8D8F0 /* Learn_by_DoingApp.swift */,
+				F0DB878E2607C32100E8D8F0 /* CardView.swift */,
+				F0DB877926051F4100E8D8F0 /* ContentView.swift */,
+				F0DB87922608BF3F00E8D8F0 /* CardModel.swift */,
+				F0DB87952608BFF500E8D8F0 /* CardData.swift */,
+				F0DB877B26051F4300E8D8F0 /* Assets.xcassets */,
+				F0DB878026051F4300E8D8F0 /* Info.plist */,
+				F0DB877D26051F4300E8D8F0 /* Preview Content */,
+			);
+			path = "Learn by Doing";
+			sourceTree = "<group>";
+		};
+		F0DB877D26051F4300E8D8F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0DB877E26051F4300E8D8F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0DB87872607AD0600E8D8F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0DB87882607AD1900E8D8F0 /* LaunchScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0AF6926260948CE00F04019 /* stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0AF692F260948D000F04019 /* Build configuration list for PBXNativeTarget "stickers" */;
+			buildPhases = (
+				F0AF6925260948CE00F04019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stickers;
+			productName = stickers;
+			productReference = F0AF6927260948CE00F04019 /* stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+		F0DB877326051F4100E8D8F0 /* Learn by Doing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0DB878326051F4300E8D8F0 /* Build configuration list for PBXNativeTarget "Learn by Doing" */;
+			buildPhases = (
+				F0DB877026051F4100E8D8F0 /* Sources */,
+				F0DB877126051F4100E8D8F0 /* Frameworks */,
+				F0DB877226051F4100E8D8F0 /* Resources */,
+				F0AF6932260948D000F04019 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0AF692D260948D000F04019 /* PBXTargetDependency */,
+			);
+			name = "Learn by Doing";
+			productName = "Learn by Doing";
+			productReference = F0DB877426051F4100E8D8F0 /* Learn by Doing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0DB876C26051F4100E8D8F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F0AF6926260948CE00F04019 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F0DB877326051F4100E8D8F0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F0DB876F26051F4100E8D8F0 /* Build configuration list for PBXProject "Learn by Doing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0DB876B26051F4100E8D8F0;
+			productRefGroup = F0DB877526051F4100E8D8F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0DB877326051F4100E8D8F0 /* Learn by Doing */,
+				F0AF6926260948CE00F04019 /* stickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0AF6925260948CE00F04019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF692A260948D000F04019 /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0DB877226051F4100E8D8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DB877F26051F4300E8D8F0 /* Preview Assets.xcassets in Resources */,
+				F0AF69202609049E00F04019 /* sound-chime.mp3 in Resources */,
+				F0DB877C26051F4300E8D8F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0DB877026051F4100E8D8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DB877A26051F4100E8D8F0 /* ContentView.swift in Sources */,
+				F0AF6923260904DC00F04019 /* PlaySound.swift in Sources */,
+				F0DB877826051F4100E8D8F0 /* Learn_by_DoingApp.swift in Sources */,
+				F0DB878F2607C32100E8D8F0 /* CardView.swift in Sources */,
+				F0DB87962608BFF500E8D8F0 /* CardData.swift in Sources */,
+				F0DB87892607AD1900E8D8F0 /* LaunchScreenView.swift in Sources */,
+				F0DB87932608BF3F00E8D8F0 /* CardModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0AF692D260948D000F04019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0AF6926260948CE00F04019 /* stickers */;
+			targetProxy = F0AF692C260948D000F04019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0AF6930260948D000F04019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4H8WGK6Y5;
+				INFOPLIST_FILE = stickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmitina.Learn-by-Doing.stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0AF6931260948D000F04019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4H8WGK6Y5;
+				INFOPLIST_FILE = stickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmitina.Learn-by-Doing.stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0DB878126051F4300E8D8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0DB878226051F4300E8D8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0DB878426051F4300E8D8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Learn by Doing/Preview Content\"";
+				DEVELOPMENT_TEAM = V4H8WGK6Y5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Learn by Doing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmitina.Learn-by-Doing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0DB878526051F4300E8D8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Learn by Doing/Preview Content\"";
+				DEVELOPMENT_TEAM = V4H8WGK6Y5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Learn by Doing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmitina.Learn-by-Doing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0AF692F260948D000F04019 /* Build configuration list for PBXNativeTarget "stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0AF6930260948D000F04019 /* Debug */,
+				F0AF6931260948D000F04019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0DB876F26051F4100E8D8F0 /* Build configuration list for PBXProject "Learn by Doing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0DB878126051F4300E8D8F0 /* Debug */,
+				F0DB878226051F4300E8D8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0DB878326051F4300E8D8F0 /* Build configuration list for PBXNativeTarget "Learn by Doing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0DB878426051F4300E8D8F0 /* Debug */,
+				F0DB878526051F4300E8D8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0DB876C26051F4100E8D8F0 /* Project object */;
+}
